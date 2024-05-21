@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MinhaAgendaDeContatos.Api</name>
+    </assembly>
+    <members>
+        <member name="M:MinhaAgendaDeContatos.Api.Controllers.ContatoController.RegistrarContato(MinhaAgendaDeContatos.Application.UseCases.Contato.Registrar.IRegistrarContatoUseCase,MinhaAgendaDeContatos.Comunicacao.Requisicoes.RequisicaoRegistrarContatoJson)">
+            <summary>
+            Registrar contato no banco de dados
+            </summary>
+            <param name="useCase"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MinhaAgendaDeContatos.Api.Controllers.ContatoController.RecuperarPorPrefixo(MinhaAgendaDeContatos.Application.UseCases.Contato.RecuperarPorPrefixo.IRecuperarPorPrefixoUseCase,System.String)">
+            <summary>
+            Retorna os contatos de acordo com o prefixo informado.
+            </summary>
+            <param name="useCase"></param>
+            <param name="prefixo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MinhaAgendaDeContatos.Api.Controllers.ContatoController.RecuperarTodosContatos(MinhaAgendaDeContatos.Application.UseCases.Contato.RecuperarTodos.IRecuperarTodosContatosUseCase)">
+            <summary>
+            Retornar todos os contatos.
+            </summary>
+            <param name="useCase"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MinhaAgendaDeContatos.Api.Controllers.ContatoController.Deletar(MinhaAgendaDeContatos.Application.UseCases.Contato.Deletar.IDeletarContatoUseCase,System.String)">
+            <summary>
+            Deletar contato do banco de dados através do email informado.
+            </summary>
+            <param name="useCase"></param>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MinhaAgendaDeContatos.Api.Controllers.ContatoController.UpdateContato(MinhaAgendaDeContatos.Application.UseCases.Contato.Update.IUpdateContatoUseCase,MinhaAgendaDeContatos.Comunicacao.Requisicoes.RequisicaoAlterarContatoJson)">
+            <summary>
+            Atualizar o telefone ou email do contato.
+            </summary>
+            <param name="useCase"></param>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

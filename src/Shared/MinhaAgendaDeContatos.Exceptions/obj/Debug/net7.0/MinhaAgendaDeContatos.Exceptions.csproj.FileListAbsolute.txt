@@ -1,0 +1,14 @@
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\bin\Debug\net7.0\MinhaAgendaDeContatos.Exceptions.deps.json
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\bin\Debug\net7.0\MinhaAgendaDeContatos.Exceptions.dll
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\bin\Debug\net7.0\MinhaAgendaDeContatos.Exceptions.pdb
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\obj\Debug\net7.0\MinhaAgendaDeContatos.Exceptions.ResourceMensagensDeErro.resources
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\obj\Debug\net7.0\MinhaAgendaDeContatos.Exceptions.csproj.GenerateResource.cache
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\obj\Debug\net7.0\MinhaAgendaDeContatos.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\obj\Debug\net7.0\MinhaAgendaDeContatos.Exceptions.AssemblyInfoInputs.cache
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\obj\Debug\net7.0\MinhaAgendaDeContatos.Exceptions.AssemblyInfo.cs
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\obj\Debug\net7.0\MinhaAgendaDeContatos.Exceptions.csproj.CoreCompileInputs.cache
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\obj\Debug\net7.0\MinhaAgendaDeContatos.Exceptions.sourcelink.json
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\obj\Debug\net7.0\MinhaAgendaDeContatos.Exceptions.dll
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\obj\Debug\net7.0\refint\MinhaAgendaDeContatos.Exceptions.dll
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\obj\Debug\net7.0\MinhaAgendaDeContatos.Exceptions.pdb
+C:\PosTech\Fiap\TechChallenge\MinhaAgendaDeContatos\src\Shared\MinhaAgendaDeContatos.Exceptions\obj\Debug\net7.0\ref\MinhaAgendaDeContatos.Exceptions.dll
