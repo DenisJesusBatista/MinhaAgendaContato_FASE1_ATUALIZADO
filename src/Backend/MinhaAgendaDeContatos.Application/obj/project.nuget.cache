@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y0//mnZKA4fRC9I+WUuKgoF8sNtgfiBmOpNtiF8rPOdhXD0/K3AM+bQ62fk/0Erhk6KZbhJhg8TTpxZSN9zzZw==",
+  "dgSpecHash": "kT9fDWCu6RPrsqNIYXyg211/FOhmWH9O2/VsY8GKXGGTVRiuPeuPhiWCI6TMmxmgfkieahh+BMXmaCchciaFyg==",
   "success": true,
   "projectFilePath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Application\\MinhaAgendaDeContatos.Application.csproj",
   "expectedPackageFiles": [
@@ -40,9 +40,13 @@
     "C:\\Users\\denisbatista\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.11\\npgsql.entityframeworkcore.postgresql.7.0.11.nupkg.sha512",
     "C:\\Users\\denisbatista\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\denisbatista\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.5.0\\system.identitymodel.tokens.jwt.7.5.0.nupkg.sha512",
+    "C:\\Users\\denisbatista\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\denisbatista\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\denisbatista\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\denisbatista\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+    "C:\\Users\\denisbatista\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
   ],
   "logs": []
 }

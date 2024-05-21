@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3HmxbTUISG37tksPb2LEgAjV55pa0J/o3zP13N+cPHhdMkiGMq4Gb6jNlFouQV/vR6h/WvFkZKN8x+w1edZPHQ==",
+  "dgSpecHash": "xay+9Xe2xpS09UK9SaJ1lCfQsLwjXFeQGN0qIHr9rI6qRMeDetmwoTeaZDbwF9XWbJaE2J5IxdpINHpWNn0t3g==",
   "success": true,
   "projectFilePath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
+  ],
   "logs": []
 }

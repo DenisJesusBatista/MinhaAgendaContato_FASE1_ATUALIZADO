@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "ZgrwMCyE6Z5EnzQ5IKHW1sfkpKORTkNH0xbrjLt4yI/509o3/wSbDETTxxoQe0yOl7nRLjvrXAdurWZ74DYkCw==",
+  "dgSpecHash": "X2n6Eh0ICGoO8u/bKWPUO93DFovu/655hnck9CxqmhmWh3WfEyJqto/D5uNY1693WA6RgAB3vz/UcDbFBYIS1g==",
   "success": true,
   "projectFilePath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\denisbatista\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
   ],
   "logs": []
 }
