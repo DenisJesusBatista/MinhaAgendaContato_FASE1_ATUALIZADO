@@ -19,7 +19,7 @@ public class ContatoRepositorio : IContatoWriteOnlyRepositorio, IContatoReadOnly
 
     public async Task Deletar(string email)
     {
-        var contato = await _contexto.Contatos.FirstOrDefaultAsync(c => c.Email == email);  
+        var contato = await _contexto.Contatos.FirstOrDefaultAsync(c => c.Email == email);
         _contexto.Contatos.Remove(contato);
     }
 
@@ -29,20 +29,34 @@ public class ContatoRepositorio : IContatoWriteOnlyRepositorio, IContatoReadOnly
     }
 
     public async Task<Contato> RecuperarPorEmail(string email)
-    {        
-        return await _contexto.Contatos.FirstOrDefaultAsync(c => c.Email.Equals(email));
-    }
-
-    public async Task<IList<Contato>> RecuperarPorPrefixo(string prefixo)
-    {   
-        return await _contexto.Contatos.AsNoTracking()
-        .Where(x => x.Prefixo == prefixo)
-        .ToListAsync();
-    }
-
-    public async Task<IList<Contato>> RecuperarTodosContatos()
     {
-        return await _contexto.Contatos.AsNoTracking().ToListAsync();            
+        return await _contexto.Contatos
+            .Include(c => c.Regiao)
+            .FirstOrDefaultAsync(c => c.Email.Equals(email));
+    }
+
+    public async Task<IEnumerable<Contato>> RecuperarPorPrefixo(string prefixo)
+    {
+        return await _contexto.Contatos
+            .Where(c => c.Prefixo == prefixo)
+            .Include(c => c.Regiao)
+            .ToListAsync();
+    }
+
+
+    public async Task<IEnumerable<Contato>> RecuperarTodosContatos()
+    {
+        return await _contexto.Contatos
+            .Include(c => c.Regiao)
+            .ToListAsync();
+    }
+
+    public async Task<IEnumerable<Contato>> RecuperarPorId(int id)
+    {
+        return await _contexto.Contatos
+            .Where(x => x.Id == id)
+            .Include(x => x.Regiao)
+            .ToListAsync();
     }
 
     public void Update(Contato contato)
@@ -52,6 +66,7 @@ public class ContatoRepositorio : IContatoWriteOnlyRepositorio, IContatoReadOnly
 
     async Task IContatoWriteOnlyRepositorio.Update(Contato contato)
     {
-        _contexto.Contatos.Update(contato);        
+        _contexto.Contatos.Update(contato);
     }
+
 }

@@ -1,4 +1,6 @@
-﻿namespace MinhaAgendaDeContatos.Domain.Repositorios;
+﻿using MinhaAgendaDeContatos.Domain.Entidades;
+
+namespace MinhaAgendaDeContatos.Domain.Repositorios;
 public interface IContatoReadOnlyRepositorio
 {
     /*Write: Escrita*/
@@ -8,9 +10,9 @@ public interface IContatoReadOnlyRepositorio
 
     /*Verificar se existe usuario com email*/
     Task<bool> ExisteUsuarioComEmail(string email);
-
-    Task<IList<Entidades.Contato>> RecuperarPorPrefixo(string prefixo);
-    Task<IList<Entidades.Contato>> RecuperarTodosContatos();
+    Task<IEnumerable<Contato>> RecuperarPorPrefixo(string prefixo);
+    Task<IEnumerable<Contato>> RecuperarPorId(int id);
+    Task<IEnumerable<Contato>> RecuperarTodosContatos();
     Task<Entidades.Contato> RecuperarPorEmail(string email);
 }
 /*

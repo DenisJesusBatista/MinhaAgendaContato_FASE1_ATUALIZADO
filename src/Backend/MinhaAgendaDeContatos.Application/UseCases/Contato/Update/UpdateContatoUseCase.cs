@@ -1,36 +1,25 @@
-﻿using MinhaAgendaDeContatos.Domain.Repositorios;
-using MinhaAgendaDeContatos.Exceptions.ExceptionsBase;
-using MinhaAgendaDeContatos.Exceptions;
-using MinhaAgendaDeContatos.Comunicacao.Requisicoes;
+﻿using MinhaAgendaDeContatos.Comunicacao.Requisicoes;
 using MinhaAgendaDeContatos.Domain.Repositorios;
-using MinhaAgendaDeContatos.Infraestrutura.AcessoRepositorio;
-using MinhaAgendaDeContatos.Domain.Entidades;
-using Microsoft.EntityFrameworkCore;
+using MinhaAgendaDeContatos.Exceptions;
+using MinhaAgendaDeContatos.Exceptions.ExceptionsBase;
 
 namespace MinhaAgendaDeContatos.Application.UseCases.Contato.Update;
-public class UpdateContatoUseCase: IUpdateContatoUseCase
+public class UpdateContatoUseCase : IUpdateContatoUseCase
 {
-    private readonly MinhaAgendaDeContatosContext _contexto;
     private readonly IContatoReadOnlyRepositorio _repositorioReadOnly;
     private readonly IContatoWriteOnlyRepositorio _repositorioWriteOnly;
     private readonly IUnidadeDeTrabalho _unidadeDeTrabalho;
-    private readonly IContatoUpdateOnlyRepositorio _repositorioUpdateOnly;
-
 
     public UpdateContatoUseCase(
        IContatoReadOnlyRepositorio repositorioReadOnly,
        IContatoWriteOnlyRepositorio repositorioWriteOnly,
-       IUnidadeDeTrabalho unidadeDeTrabalho,
-       IContatoUpdateOnlyRepositorio repositorioUpdateOnly)
-    
+       IUnidadeDeTrabalho unidadeDeTrabalho)
+
     {
         _repositorioReadOnly = repositorioReadOnly;
         _repositorioWriteOnly = repositorioWriteOnly;
         _unidadeDeTrabalho = unidadeDeTrabalho;
-        _repositorioUpdateOnly = repositorioUpdateOnly;
-       
-        
-    }  
+    }
 
     public async Task Executar(RequisicaoAlterarContatoJson requisicao)
     {
@@ -54,11 +43,6 @@ public class UpdateContatoUseCase: IUpdateContatoUseCase
         if (contato == null)
         {
             throw new ErrosDeValidacaoException(new List<string> { ResourceMensagensDeErro.CONTATO_NAO_ENCONTRADO });
-        }       
-    }
-
-    public async Task<Domain.Entidades.Contato> RecuperarPorEmail(string email)
-    {
-        return await _contexto.Contatos.FirstOrDefaultAsync(c => c.Email.Equals(email));
+        }
     }
 }

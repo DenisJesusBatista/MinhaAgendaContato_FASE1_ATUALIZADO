@@ -1,6 +1,8 @@
 ﻿using MinhaAgendaDeContatos.Domain.Repositorios;
+using System.Diagnostics.CodeAnalysis;
 
 namespace MinhaAgendaDeContatos.Infraestrutura.AcessoRepositorio;
+[ExcludeFromCodeCoverage]
 public sealed class UnidadeDeTrabalho : IDisposable, IUnidadeDeTrabalho
 {
     //Classe que libera a memoria
@@ -12,8 +14,6 @@ public sealed class UnidadeDeTrabalho : IDisposable, IUnidadeDeTrabalho
         _contexto = contexto;
 
     }
-
-
 
     public async Task Commit()
     {

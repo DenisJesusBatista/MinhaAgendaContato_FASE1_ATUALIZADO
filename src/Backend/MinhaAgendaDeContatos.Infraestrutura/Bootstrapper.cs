@@ -1,23 +1,25 @@
-﻿using FluentMigrator.Runner;
-using MinhaAgendaDeContatos.Domain.Extension;
+﻿#region Pluglins
+using FluentMigrator.Runner;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
+using MinhaAgendaDeContatos.Domain.Extension;
 using MinhaAgendaDeContatos.Domain.Repositorios;
 using MinhaAgendaDeContatos.Infraestrutura.AcessoRepositorio;
 using MinhaAgendaDeContatos.Infraestrutura.AcessoRepositorio.Repositorio;
-using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace MinhaAgendaDeContatos.Infraestrutura;
+
+#endregion
 public static class Bootstrapper
 {
     public static void AddRepositorio(this IServiceCollection services, IConfiguration configurationManager)
-    {        
+    {
         AddFluentMigratorPostgres(services, configurationManager);
         AddUnidadeDeTrabalho(services);
         AddRepositorios(services);
         AddContexto(services, configurationManager);
-
     }
 
     private static void AddUnidadeDeTrabalho(this IServiceCollection services)
@@ -27,24 +29,13 @@ public static class Bootstrapper
 
     private static void AddContexto(IServiceCollection services, IConfiguration configurationManager)
     {
-        //var versaoServidor = new PostGressVersion(new Version(7, 0, 26));
-
         var connectionString = configurationManager.GetConexaoCompleta();
 
-        
         services.AddDbContext<MinhaAgendaDeContatosContext>(dbCobtextoOpcoes =>
         {
             dbCobtextoOpcoes.UseNpgsql(connectionString);
-
         });
-
-        //services.AddDbContext<MinhaAgendaDeContatosContext>(options =>
-        //options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
-        
-
     }
-
-
     private static void AddFluentMigratorPostgres(IServiceCollection services, IConfiguration configurationManager)
     {
         services.AddFluentMigratorCore().ConfigureRunner(c =>
@@ -56,8 +47,7 @@ public static class Bootstrapper
     {
         services.AddScoped<IContatoWriteOnlyRepositorio, ContatoRepositorio>()
             .AddScoped<IContatoReadOnlyRepositorio, ContatoRepositorio>()
+            .AddScoped<IDDDRegiao, DDDRegiaoRepositorio>()
          .AddScoped<IContatoUpdateOnlyRepositorio, ContatoRepositorio>();
-
-
     }
 }

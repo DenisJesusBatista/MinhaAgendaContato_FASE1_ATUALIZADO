@@ -1,15 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TgfyU/WMtmbBAqjSoe0KevALnoAXR8gmTQi4rbP6eOC60m/XFoTbd0VWopsF/5SlSbclpqn0prIamjCkEIQqWQ==",
+  "dgSpecHash": "llcPDNEmclrOnGzxV49fObip0biU8z1U1RBkehQsMsuVisfol6WU8qcghdLYdoNly9yBsk8qS9AiMgK9bMQw5w==",
   "success": true,
-  "projectFilePath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj",
+  "projectFilePath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
-    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.19\\microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512"
+    "C:\\Users\\denisbatista\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

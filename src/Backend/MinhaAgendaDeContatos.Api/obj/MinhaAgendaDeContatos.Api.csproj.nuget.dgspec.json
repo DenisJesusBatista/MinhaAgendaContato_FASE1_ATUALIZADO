@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Api\\MinhaAgendaDeContatos.Api.csproj": {}
+    "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Api\\MinhaAgendaDeContatos.Api.csproj": {}
   },
   "projects": {
-    "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Api\\MinhaAgendaDeContatos.Api.csproj": {
+    "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Api\\MinhaAgendaDeContatos.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Api\\MinhaAgendaDeContatos.Api.csproj",
+        "projectUniqueName": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Api\\MinhaAgendaDeContatos.Api.csproj",
         "projectName": "MinhaAgendaDeContatos.Api",
-        "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Api\\MinhaAgendaDeContatos.Api.csproj",
+        "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Api\\MinhaAgendaDeContatos.Api.csproj",
         "packagesPath": "C:\\Users\\denisbatista\\.nuget\\packages\\",
-        "outputPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Api\\obj\\",
+        "outputPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,27 +22,27 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Application\\MinhaAgendaDeContatos.Application.csproj": {
-                "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Application\\MinhaAgendaDeContatos.Application.csproj"
+              "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Application\\MinhaAgendaDeContatos.Application.csproj": {
+                "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Application\\MinhaAgendaDeContatos.Application.csproj"
               },
-              "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj": {
-                "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj"
+              "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj": {
+                "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj"
               },
-              "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj": {
-                "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj"
+              "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj": {
+                "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj"
               },
-              "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj": {
-                "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj"
+              "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj": {
+                "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj"
               }
             }
           }
@@ -59,8 +59,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -77,6 +77,10 @@
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -98,18 +102,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Application\\MinhaAgendaDeContatos.Application.csproj": {
+    "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Application\\MinhaAgendaDeContatos.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Application\\MinhaAgendaDeContatos.Application.csproj",
+        "projectUniqueName": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Application\\MinhaAgendaDeContatos.Application.csproj",
         "projectName": "MinhaAgendaDeContatos.Application",
-        "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Application\\MinhaAgendaDeContatos.Application.csproj",
+        "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Application\\MinhaAgendaDeContatos.Application.csproj",
         "packagesPath": "C:\\Users\\denisbatista\\.nuget\\packages\\",
-        "outputPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Application\\obj\\",
+        "outputPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -120,27 +124,27 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj": {
-                "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj"
+              "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj": {
+                "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj"
               },
-              "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj": {
-                "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj"
+              "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj": {
+                "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj"
               },
-              "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj": {
-                "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj"
+              "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj": {
+                "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj"
               },
-              "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj": {
-                "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj"
+              "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj": {
+                "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj"
               }
             }
           }
@@ -157,8 +161,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -184,37 +188,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj": {
+    "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj",
+        "projectUniqueName": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj",
         "projectName": "MinhaAgendaDeContatos.Domain",
-        "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj",
+        "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj",
         "packagesPath": "C:\\Users\\denisbatista\\.nuget\\packages\\",
-        "outputPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Domain\\obj\\",
+        "outputPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -225,15 +215,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -249,8 +239,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -268,37 +258,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj": {
+    "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj",
+        "projectUniqueName": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj",
         "projectName": "MinhaAgendaDeContatos.Infraestrutura",
-        "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj",
+        "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\MinhaAgendaDeContatos.Infraestrutura.csproj",
         "packagesPath": "C:\\Users\\denisbatista\\.nuget\\packages\\",
-        "outputPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\obj\\",
+        "outputPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Infraestrutura\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -309,18 +285,21 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj": {
-                "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj"
+              "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj": {
+                "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj"
+              },
+              "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj": {
+                "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj"
               }
             }
           }
@@ -337,8 +316,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -363,6 +342,10 @@
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Npgsql": {
               "target": "Package",
@@ -389,18 +372,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj": {
+    "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj",
+        "projectUniqueName": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj",
         "projectName": "MinhaAgendaDeContatos.Comunicacao",
-        "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj",
+        "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\MinhaAgendaDeContatos.Comunicacao.csproj",
         "packagesPath": "C:\\Users\\denisbatista\\.nuget\\packages\\",
-        "outputPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\obj\\",
+        "outputPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Comunicacao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -411,16 +394,20 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {}
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj": {
+                "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Backend\\MinhaAgendaDeContatos.Domain\\MinhaAgendaDeContatos.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -435,8 +422,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -448,37 +435,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj": {
+    "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj",
+        "projectUniqueName": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj",
         "projectName": "MinhaAgendaDeContatos.Exceptions",
-        "projectPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj",
+        "projectPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\MinhaAgendaDeContatos.Exceptions.csproj",
         "packagesPath": "C:\\Users\\denisbatista\\.nuget\\packages\\",
-        "outputPath": "C:\\PosTech\\Fiap\\TechChallenge\\MinhaAgendaDeContatos\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\obj\\",
+        "outputPath": "C:\\PosTech\\Fiap\\pratica-azure\\MinhaAgendaContato_FASE1_ATUALIZADO\\src\\Shared\\MinhaAgendaDeContatos.Exceptions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -489,15 +462,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -513,8 +486,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -526,26 +499,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.19, 7.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

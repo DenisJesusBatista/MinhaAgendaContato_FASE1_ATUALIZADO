@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MinhaAgendaDeContatos.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a5b950f9edbd935cd6fae16d045fffb70266672")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8701849f6cefb6fc928fbde7ab4f1d5cb944b6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MinhaAgendaDeContatos.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MinhaAgendaDeContatos.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

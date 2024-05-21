@@ -1,37 +1,31 @@
 ﻿using AutoMapper;
-using MinhaAgendaDeContatos.Application.Servicoes.Token;
 using MinhaAgendaDeContatos.Comunicacao.Requisicoes;
-using MinhaAgendaDeContatos.Comunicacao.Resposta;
 using MinhaAgendaDeContatos.Domain.Repositorios;
 using MinhaAgendaDeContatos.Exceptions;
 using MinhaAgendaDeContatos.Exceptions.ExceptionsBase;
 
 namespace MinhaAgendaDeContatos.Application.UseCases.Contato.Registrar;
-public class RegistrarContatoUseCase: IRegistrarContatoUseCase
+public class RegistrarContatoUseCase : IRegistrarContatoUseCase
 {
     //Variavel readonly só pode ser atribuido valor nela, apenas no construtor da classe ( public RegistrarContatoUseCase(IContatoWriteOnlyRepositorio repositorio) )
     private readonly IContatoReadOnlyRepositorio _contatoReadOnlyRepositorio;
     private readonly IContatoWriteOnlyRepositorio _contatoWriteOnlyRepositorio;
     private readonly IMapper _mapper;
     private readonly IUnidadeDeTrabalho _unidadeDeTrabalho;
-    private readonly TokenController _tokenController;
 
     //Configurar a injeção de dependência atalho CTOR - Criar 
     //Construtor
     public RegistrarContatoUseCase(IContatoWriteOnlyRepositorio contatoWriteOnlyRepositorio, IMapper mapper, IUnidadeDeTrabalho unidadeDeTrabalho,
-        TokenController tokenController, IContatoReadOnlyRepositorio contatoReadOnlyRepositorio
+       IContatoReadOnlyRepositorio contatoReadOnlyRepositorio
         )
     {
-        _contatoWriteOnlyRepositorio = contatoWriteOnlyRepositorio; 
+        _contatoWriteOnlyRepositorio = contatoWriteOnlyRepositorio;
         _mapper = mapper;
         _unidadeDeTrabalho = unidadeDeTrabalho;
-        _tokenController = tokenController;
         _contatoReadOnlyRepositorio = contatoReadOnlyRepositorio;
-
-
     }
 
-    public async Task<RespostaContatoRegistradoJson> Executar(RequisicaoRegistrarContatoJson requisicao)
+    public async Task Executar(RequisicaoRegistrarContatoJson requisicao)
     {
         await Validar(requisicao);
 
@@ -41,21 +35,15 @@ public class RegistrarContatoUseCase: IRegistrarContatoUseCase
 
         var entidade = _mapper.Map<Domain.Entidades.Contato>(requisicao);
 
-        //Salvar no banco de dados
+        entidade.DataCriacao = DateTime.UtcNow;
+
+        //Salvar no banco de dados.
 
         await _contatoWriteOnlyRepositorio.Adicionar(entidade);
 
         await _unidadeDeTrabalho.Commit();
-
-        var token = _tokenController.GerarToken(entidade.Email);
-
-        return new RespostaContatoRegistradoJson
-        {
-            Token = token,
-        };
-
-       
     }
+
 
     private async Task Validar(RequisicaoRegistrarContatoJson requisicao)
     {

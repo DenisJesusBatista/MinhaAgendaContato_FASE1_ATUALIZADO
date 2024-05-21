@@ -1,13 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MinhaAgendaDeContatos.Api.Response;
 using MinhaAgendaDeContatos.Application.UseCases.Contato.Deletar;
+using MinhaAgendaDeContatos.Application.UseCases.Contato.RecuperarPorId;
 using MinhaAgendaDeContatos.Application.UseCases.Contato.RecuperarPorPrefixo;
 using MinhaAgendaDeContatos.Application.UseCases.Contato.RecuperarTodos;
 using MinhaAgendaDeContatos.Application.UseCases.Contato.Registrar;
 using MinhaAgendaDeContatos.Application.UseCases.Contato.Update;
 using MinhaAgendaDeContatos.Comunicacao.Requisicoes;
 using MinhaAgendaDeContatos.Comunicacao.Resposta;
-using MinhaAgendaDeContatos.Domain.Repositorios;
-using System.Reflection.Metadata.Ecma335;
+
+
+
+using static MinhaAgendaDeContatos.Comunicacao.Resposta.RespostaContatoRegistradoJson;
 
 namespace MinhaAgendaDeContatos.Api.Controllers;
 [Route("api/[controller]")]
@@ -21,53 +25,60 @@ public class ContatoController : ControllerBase
     /// <param name="request"></param>
     /// <returns></returns>
     [HttpPost]
-    [ProducesResponseType(typeof(RespostaContatoRegistradoJson), StatusCodes.Status201Created)] 
     public async Task<IActionResult> RegistrarContato(
-        [FromServices] IRegistrarContatoUseCase useCase,
-        [FromBody] RequisicaoRegistrarContatoJson request)
+    [FromServices] IRegistrarContatoUseCase useCase,
+    [FromBody] RequisicaoRegistrarContatoJson request)
     {
-        var resultado = await useCase.Executar(request);
+        await useCase.Executar(request);
 
-        return Created(string.Empty, resultado);
-
+        return Ok(ResponseMessages.ContatoCriado);
     }
 
-
-    /// <summary>
-    /// Retorna os contatos de acordo com o prefixo informado.
-    /// </summary>
-    /// <param name="useCase"></param>
-    /// <param name="prefixo"></param>
-    /// <returns></returns>
     [HttpGet]
-    [Route("{prefixo}")]
-    [ProducesResponseType(typeof(RespostaContatoRegistradoJson), StatusCodes.Status200OK)]
+    [Route("prefixo/{prefixo}")]
+    [ProducesResponseType(typeof(RespostaCombinadaJson), StatusCodes.Status200OK)]
     public async Task<IActionResult> RecuperarPorPrefixo(
     [FromServices] IRecuperarPorPrefixoUseCase useCase,
     string prefixo)
     {
-        var resposta = await useCase.Executar(prefixo);
+        var respostaContato = await useCase.Executar(prefixo);
+
+        return Ok(respostaContato);
+    }
+
+    /// <summary>
+    /// Retorna os contatos de acordo com o id informado.
+    /// </summary>
+    /// <param name = "useCase" ></ param >
+    /// < param name="id"></param>
+    /// <returns></returns>
+    [HttpGet]
+    [Route("id/{id}")]
+    [ProducesResponseType(typeof(RespostaContatoRegistradoJson), StatusCodes.Status200OK)]
+    public async Task<IActionResult> RecuperarPorId(
+    [FromServices] IRecuperarPorIdUseCase useCase,
+    int id)
+    {
+        var resposta = await useCase.Executar(id);
 
         return Ok(resposta);
     }
-
 
     /// <summary>
     /// Retornar todos os contatos.
     /// </summary>
     /// <param name="useCase"></param>
     /// <returns></returns>
-    [HttpGet]    
+
+    [HttpGet]
     [ProducesResponseType(typeof(RespostaContatoRegistradoJson), StatusCodes.Status200OK)]
     public async Task<IActionResult> RecuperarTodosContatos(
-        [FromServices] IRecuperarTodosContatosUseCase useCase)
+    [FromServices] IRecuperarTodosContatosUseCase useCase)
     {
         var resposta = await useCase.Executar();
 
         return Ok(resposta);
-
     }
-
 
     /// <summary>
     /// Deletar contato do banco de dados através do email informado.
@@ -80,14 +91,12 @@ public class ContatoController : ControllerBase
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     public async Task<IActionResult> Deletar(
         [FromServices] IDeletarContatoUseCase useCase,
-        [FromBody] string email)
+        string email)
     {
         await useCase.Executar(email);
 
-        return NoContent();
-
+        return Ok(ResponseMessages.ContatoApagado);
     }
-
 
     /// <summary>
     /// Atualizar o telefone ou email do contato.
@@ -95,7 +104,7 @@ public class ContatoController : ControllerBase
     /// <param name="useCase"></param>
     /// <param name="request"></param>
     /// <returns></returns>
-    [HttpPut]   
+    [HttpPut]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     public async Task<IActionResult> UpdateContato(
        [FromServices] IUpdateContatoUseCase useCase,
@@ -104,7 +113,6 @@ public class ContatoController : ControllerBase
         await useCase.Executar(request);
 
         return NoContent();
-
     }
 
 
