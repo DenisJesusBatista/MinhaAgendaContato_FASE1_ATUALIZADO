@@ -64,27 +64,12 @@ jobs:
         username: 'denisjesus'
         # Password or personal access token used to log against the Docker registry
         password: ${{ secrets.DOCKER_PASSWORD }}
+
+    - name: Build and push Docker images  
+      uses: docker/build-push-action@v5.3.0
+      with:   
+        context: .
+        tags: 'denisjesus/fiap-ghactions:latest'
+        push: true
         
-
-    # Install the .NET Core workload
-    - name: Install .NET Core
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 8.0.x
-     
-  
-
-
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 7.0.x
-    - name: Restore dependencies      
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
-      
-      
-    # Execute all unit tests in the solution
-    - name: Execute unit tests
-      run: dotnet test --no-build --verbosity normal
+    
