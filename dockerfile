@@ -3,7 +3,7 @@ WORKDIR /App
 
 # Copy everything
 COPY . ./
-# Restore as distinct layesrs..
+# Restore as distinct layesrs...
 RUN dotnet restore
 # Build and publish a release
 RUN dotnet publish -c Release -o out
